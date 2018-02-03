@@ -53,6 +53,17 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+        buttons[2].setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        buttons[3].setVisibility(View.VISIBLE);
+                        buttons[2].setVisibility(View.INVISIBLE);
+                        buttons[3].setText("2");
+                        vis[2] = true;
+                    }
+                }
+        );
     }
 }
 
