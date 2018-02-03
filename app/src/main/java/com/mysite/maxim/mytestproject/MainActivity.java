@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         B[6] = (Button)findViewById(R.id.Seven);
         B[7] = (Button)findViewById(R.id.Eight);
         B[8] = (Button)findViewById(R.id.Nine);
+
         addOnClickListener();
     }
 
