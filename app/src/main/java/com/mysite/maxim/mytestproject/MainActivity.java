@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
         addOnClickListener();
     }
 
-
-
     public void addOnClickListener (){
         B[1].setOnClickListener(
                 new View.OnClickListener() {
