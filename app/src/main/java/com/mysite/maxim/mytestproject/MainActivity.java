@@ -19,15 +19,15 @@ public class MainActivity extends AppCompatActivity {
         bb[1]=new Button[3];
         bb[2]=new Button[3];
 
-        bb[0][0] = findViewById(R.id.One);
-        bb[0][1] = findViewById(R.id.Two);
-        bb[0][2] = findViewById(R.id.Three);
-        bb[1][0] = findViewById(R.id.Four);
-        bb[1][1] = findViewById(R.id.Five);
-        bb[1][2] = findViewById(R.id.Six);
-        bb[2][0] = findViewById(R.id.Seven);
-        bb[2][1] = findViewById(R.id.Eight);
-        bb[2][2] = findViewById(R.id.Nine);
+        bb[0][0] = findViewById(R.id.b00);
+        bb[0][1] = findViewById(R.id.b01);
+        bb[0][2] = findViewById(R.id.b02);
+        bb[1][0] = findViewById(R.id.b10);
+        bb[1][1] = findViewById(R.id.b11);
+        bb[1][2] = findViewById(R.id.b03);
+        bb[2][0] = findViewById(R.id.b31);
+        bb[2][1] = findViewById(R.id.b12);
+        bb[2][2] = findViewById(R.id.b13);
 
         for (int i=0;i<3;i++) {
             for(int j=0;j<3;j++) {
