@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void clickBB(int i, int j) {
         System.out.println("i = "+i+", j = "+j);
-        bb[i][j].setVisibility(View.INVISIBLE);
+        
     }
 
 }
