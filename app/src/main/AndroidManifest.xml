@@ -13,7 +13,7 @@
         android:name=".MainActivity"
         android:screenOrientation="portrait">
       <intent-filter>
-        <action android:name="com.mysite.maxim.mytestproject.MenuActivity" />
+        <action android:name="com.mysite.maxim.mytestproject.MainActivity" />
 
         <category android:name="android.intent.category.DEFAULT" />
       </intent-filter>
