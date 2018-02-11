@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffbb33"
     tools:context="com.mysite.maxim.mytestproject.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
@@ -12,13 +13,16 @@
         android:layout_width="65dp"
         android:layout_height="68dp"
         android:layout_marginBottom="136dp"
-        android:layout_marginEnd="12dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/b33"
-        app:layout_constraintTop_toBottomOf="@+id/b22" />
+        app:layout_constraintTop_toBottomOf="@+id/b22"
+        app:layout_constraintVertical_bias="0.545" />
 
     <Button
         android:id="@+id/b33"
@@ -27,7 +31,9 @@
         android:layout_marginBottom="136dp"
         android:layout_marginEnd="48dp"
         android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,11 +47,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/b31"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b20"
         app:layout_constraintVertical_bias="0.545" />
@@ -57,9 +65,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b11"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b00" />
 
@@ -67,9 +78,11 @@
         android:id="@+id/b11"
         android:layout_width="65dp"
         android:layout_height="68dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b12"
         app:layout_constraintTop_toBottomOf="@+id/b01" />
@@ -80,7 +93,9 @@
         android:layout_height="68dp"
         android:layout_marginEnd="48dp"
         android:layout_marginTop="48dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -91,7 +106,9 @@
         android:layout_height="68dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="48dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         android:visibility="visible"
         app:layout_constraintEnd_toStartOf="@+id/b03"
@@ -104,9 +121,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b01"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -115,21 +135,26 @@
         android:layout_width="65dp"
         android:layout_height="68dp"
         android:layout_marginBottom="136dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/b32"
-        app:layout_constraintTop_toBottomOf="@+id/b21" />
+        app:layout_constraintTop_toBottomOf="@+id/b21"
+        app:layout_constraintVertical_bias="0.545" />
 
     <Button
         android:id="@+id/b21"
         android:layout_width="65dp"
         android:layout_height="68dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="12dp"
         android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b22"
         app:layout_constraintTop_toBottomOf="@+id/b11" />
@@ -140,7 +165,9 @@
         android:layout_height="68dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b23"
         app:layout_constraintTop_toBottomOf="@+id/b12" />
@@ -151,7 +178,9 @@
         android:layout_height="68dp"
         android:layout_marginEnd="48dp"
         android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b13" />
@@ -163,9 +192,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b21"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b10" />
 
@@ -175,7 +207,9 @@
         android:layout_height="68dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b13"
         app:layout_constraintTop_toBottomOf="@+id/b02" />
@@ -186,7 +220,9 @@
         android:layout_height="68dp"
         android:layout_marginEnd="48dp"
         android:layout_marginTop="16dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b03" />
@@ -197,9 +233,31 @@
         android:layout_height="68dp"
         android:layout_marginEnd="12dp"
         android:layout_marginTop="48dp"
+        android:background="@android:color/holo_blue_bright"
         android:text="z"
+        android:textColor="@android:color/black"
         android:textSize="30sp"
         app:layout_constraintEnd_toStartOf="@+id/b02"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Shuffle"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/colorPrimary"
+        android:text="Перемешать"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b33" />
 
 </android.support.constraint.ConstraintLayout>

@@ -5,9 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
   Button[][] bb;
+  private Button shuffle;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     bb[3][1] = findViewById(R.id.b31);
     bb[3][2] = findViewById(R.id.b32);
     bb[3][3] = findViewById(R.id.b33);
-
+    shuffle = (Button)findViewById(R.id.Shuffle);
     for (int i = 0; i < 4; i++) {
       for (int j = 0; j < 4; j++) {
 
@@ -57,13 +60,28 @@ public class MainActivity extends AppCompatActivity {
 
     initStart();
 
+    shuffle.setOnClickListener(
+        new View.OnClickListener() {
+          @Override
+          public void onClick(View v) {
+            Random random = new Random();
+            for(int x = 0;x < 100;x++){
+              int i = random.nextInt(4);
+              int j = random.nextInt(4);
+              clickBB(i, j);
+            }
+          }
+        }
+    );
+
+
 
   }
+
 
   private void initStart() {
     for (int i = 0; i < 4; i++) {
       for (int j = 0; j < 4; j++) {
-
         bb[i][j].setVisibility(View.VISIBLE);
         bb[i][j].setText("" + (i * 4 + j + 1));
 
@@ -73,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
   }
 
   private void clickBB(int I, int J) {
+    if(bb[I][J].getVisibility() != View.VISIBLE) return;
     System.out.println("I = " + I + ", J = " + J);
 
     for (int j = 0; j < 4; j++) {
