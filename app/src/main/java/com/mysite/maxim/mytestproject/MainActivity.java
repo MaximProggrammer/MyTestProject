@@ -1,5 +1,6 @@
 package com.mysite.maxim.mytestproject;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -9,6 +10,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
+  int Gray = R.color.colorPrimary;
   Button[][] bb;
   private Button shuffle;
 
@@ -54,7 +56,54 @@ public class MainActivity extends AppCompatActivity {
               }
 
             });
-
+        if(bb[0][0].getText() == "1"){
+          if(bb[0][1].getText() == "2"){
+            if(bb[0][2].getText() == "3"){
+              if (bb[0][3].getText() == "4") {
+                if (bb[1][0].getText() == "5") {
+                  if (bb[1][1].getText() == "6") {
+                    if (bb[1][2].getText() == "7") {
+                      if (bb[1][3].getText() == "8") {
+                        if (bb[2][0].getText() == "9") {
+                          if (bb[2][1].getText() == "10") {
+                            if (bb[2][2].getText() == "11") {
+                              if (bb[2][3].getText() == "12") {
+                                if (bb[3][0].getText() == "13") {
+                                  if (bb[3][1].getText() == "14") {
+                                    if (bb[3][2].getText() == "15") {
+                                      if (bb[3][3].getText() == "16") {
+                                        bb[0][0].setBackgroundColor(Color.GREEN);
+                                        bb[0][1].setBackgroundColor(Color.GREEN);
+                                        bb[0][2].setBackgroundColor(Color.GREEN);
+                                        bb[0][3].setBackgroundColor(Color.GREEN);
+                                        bb[1][0].setBackgroundColor(Color.GREEN);
+                                        bb[1][1].setBackgroundColor(Color.GREEN);
+                                        bb[1][2].setBackgroundColor(Color.GREEN);
+                                        bb[1][3].setBackgroundColor(Color.GREEN);
+                                        bb[2][0].setBackgroundColor(Color.GREEN);
+                                        bb[2][1].setBackgroundColor(Color.GREEN);
+                                        bb[2][2].setBackgroundColor(Color.GREEN);
+                                        bb[2][3].setBackgroundColor(Color.GREEN);
+                                        bb[3][0].setBackgroundColor(Color.GREEN);
+                                        bb[3][1].setBackgroundColor(Color.GREEN);
+                                        bb[3][2].setBackgroundColor(Color.GREEN);
+                                        bb[3][3].setBackgroundColor(Color.GREEN);
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
 
@@ -76,6 +125,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
   }
 
 
@@ -84,7 +134,6 @@ public class MainActivity extends AppCompatActivity {
       for (int j = 0; j < 4; j++) {
         bb[i][j].setVisibility(View.VISIBLE);
         bb[i][j].setText("" + (i * 4 + j + 1));
-
       }
     }
     bb[3][3].setVisibility(View.INVISIBLE);
